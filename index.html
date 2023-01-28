@@ -1,7 +1,7 @@
 <!--Enrico Negretto 22/01/23 project start, using bulma.io framework-->
 <!--Alessio Campello ??/??/23 started contributing to the project-->
 <!DOCTYPE html>
-<html lang="it-IT" style="scroll-behavior: smooth;">
+<html lang="it-IT" style="scroll-behavior: smooth;" class="has-navbar-fixed-top">
     <head>
         <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" href="https://www.polisportivamonastier88.it/wp-content/uploads/2015/03/fav.png" type="image/x-icon"> <!--favicon-->
@@ -12,45 +12,47 @@
     
     <body>
         <div class="container is-widescreen"> <!--main container start-->
-            <nav class="navbar"> <!--navbar start-->
-                <div class="navbar-brand">
-                    <a class="navbar-item">
-                        <img src="https://www.polisportivamonastier88.it/wp-content/uploads/2015/08/logo-poli-orig.png" alt="navbar logo">
-                    </a>
-                </div>
-
-                <div class="navbar-menu">
-                    <div class="navbar-end">
+            <nav class="navbar is-fixed-top has-background-white-bis"> <!--navbar start-->
+                <div class="container is-widescreen">
+                    <div class="navbar-brand">
                         <a class="navbar-item">
-                            <strong>Home</strong>
+                            <img src="https://www.polisportivamonastier88.it/wp-content/uploads/2015/08/logo-poli-orig.png" alt="navbar logo">
                         </a>
+                    </div>
 
-                        <div class="navbar-item has-dropdown is-hoverable">
-                            <a class="navbar-link">
-                                Chi siamo
+                    <div class="navbar-menu">
+                        <div class="navbar-end">
+                            <a class="navbar-item">
+                                <strong>Home</strong>
                             </a>
 
-                            <div class="navbar-dropdown">
-                                <a class="navbar-item">
+                            <div class="navbar-item has-dropdown is-hoverable">
+                                <a class="navbar-link">
                                     Chi siamo
                                 </a>
-                                <a class="navbar-item">
-                                    Impianti
-                                </a>
+
+                                <div class="navbar-dropdown">
+                                    <a class="navbar-item">
+                                        Chi siamo
+                                    </a>
+                                    <a class="navbar-item">
+                                        Impianti
+                                    </a>
+                                </div>
                             </div>
+
+                            <a class="navbar-item">
+                                Attività
+                            </a>
+
+                            <a class="navbar-item">
+                                Notizie
+                            </a>
+
+                            <a class="navbar-item">
+                                Contatti
+                            </a>
                         </div>
-
-                        <a class="navbar-item">
-                            Attività
-                        </a>
-
-                        <a class="navbar-item">
-                            Notizie
-                        </a>
-
-                        <a class="navbar-item">
-                            Contatti
-                        </a>
                     </div>
                 </div>
             </nav> <!--navbar end-->
@@ -76,12 +78,18 @@
 
             <br>
 
+            Le ultime notizie
+
+            <br><br>
+
             <div class="columns is-hidden-mobile">
                 <div class="column">
-                    1
+                    <!--COLONNA DI SINISTRA-->
+                    ciao
                 </div>
                 
                 <div class="column is-one-third">
+                    <!--COLONNA DI DESTRA-->
                     <div class="field has-addons">
                         <div class="control">
                             <input class="input" type="text" placeholder="Cerca qualsiasi cosa...">
@@ -93,40 +101,67 @@
                         </div>
                     </div>
                     
+                    <br>
+
                     <aside class="menu">
                         <p class="menu-label">
-                            General
+                            ARTICOLI RECENTI
                         </p>
                         <ul class="menu-list">
-                            <li><a>Dashboard</a></li>
-                            <li><a>Customers</a></li>
+                            <li><a>Programma stagione sportiva 2018/19</a></li>
+                            <li><a>Parco Sport Estate 2018</a></li>
+                            <li><a>30^ Festa dello Sport</a></li>
+                            <li><a>Serata dedicata ai genitori</a></li>
+                            <li><a>Progetto Sport – Salute – Sicurezza</a></li>
                         </ul>
+
                         <p class="menu-label">
-                            Administration
+                            PROGETTO SPORT IN&OUT
                         </p>
                         <ul class="menu-list">
-                            <li><a>Team Settings</a></li>
-                            <li>
-                                <a class="is-active">Manage Your Team</a>
-                                <ul>
-                                <li><a>Members</a></li>
-                                <li><a>Plugins</a></li>
-                                <li><a>Add a member</a></li>
+                            <li><img src="https://www.polisportivamonastier88.it/wp-content/uploads/2016/09/sport_in_out.png"></li>
+                        </ul>
+
+                        <p class="menu-label">
+                            COMUNE DI MONASTIER DI TREVISO
+                        </p>
+                        <ul class="menu-list">
+                            <li><img src="https://www.polisportivamonastier88.it/wp-content/uploads/2017/10/Logo-Comune-di-Monastier_65.png"></li>
+                        </ul>
+
+                        <div class="columns">
+                            <div class="column">
+                                <p class="menu-label">
+                                    CSI TREVISO
+                                </p>
+                                <ul class="menu-list">
+                                    <li><img src="http://csitreviso.it/wp-content/uploads/2016/01/logo_csi.png"></li>
                                 </ul>
-                            </li>
-                            <li><a>Invitations</a></li>
-                            <li><a>Cloud Storage Environment Settings</a></li>
-                            <li><a>Authentication</a></li>
+                            </div>
+                            <div class="column">
+                                <p class="menu-label">
+                                    FIPAV TREVISO
+                                </p>
+                                <ul class="menu-list">
+                                    <li><img src="http://www.polisportivamonastier88.it/wp-content/uploads/2016/09/fipav_tv.png?width=115&height=110"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <ul class="menu-list">
+                            <li><img src="http://www.polisportivamonastier88.it/wp-content/uploads/2015/12/Logo_MonastierMeolo_CEdS_2016.jpg"></li>
                         </ul>
+                        <ul class="menu-list">
+                            <li><img src="https://www.trecuori.org/images/loghi/banner-180.png"></li>
+                        </ul>
+
                         <p class="menu-label">
-                          Transactions
+                            LINK UTILI
                         </p>
                         <ul class="menu-list">
-                          <li><a>Payments</a></li>
-                          <li><a>Transfers</a></li>
-                          <li><a>Balance</a></li>
+                            <li><img src="http://www.polisportivamonastier88.it/wp-content/uploads/2015/10/facebook-logo.png"></li>
                         </ul>
-                      </aside>
+
+                    </aside>
                 </div>
             </div>
 
