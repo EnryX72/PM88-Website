@@ -22,3 +22,7 @@ html::-webkit-scrollbar-track:hover{
     background-color: rgba(166, 166, 166, 0.23);
 }
 /*CUSTOM SCROLLBAR end*/
+
+.immagine-notizia-home{
+    border-radius: 25px;
+}
