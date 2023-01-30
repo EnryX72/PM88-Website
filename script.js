@@ -10,6 +10,3 @@ function move_data_notizia(){
 function move_img_notizia(){
     onload.getElementById("").style.src="IMG"
 }
-function chiudi_popup_home(){
-    document.getElementsByClassName("").style.display="none";
-}
