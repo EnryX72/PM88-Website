@@ -26,3 +26,7 @@ html::-webkit-scrollbar-track:hover{
 .immagine-notizia-home{
     border-radius: 25px;
 }
+
+.overflow-hidden{
+    overflow: hidden;
+}
