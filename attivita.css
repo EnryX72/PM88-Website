@@ -1,0 +1,56 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.testo-colonna-attivita{
+    position: absolute;
+    left: 32px;
+    top: 50px;
+}
+
+.testo-colonna-attivita1{
+    position: absolute;
+    left: 33px;
+    top: 50px;
+}
+
+.testo-colonna-attivita2{
+    position: absolute;
+    left: 12px;
+    top: 50px;
+}
+
+.testo-colonna-attivita3{
+    position: absolute;
+    left: 3px;
+    top: 45px;
+}
+
+.testo-colonna-attivita4{
+    position: absolute;
+    left: 4px;
+    top: 40px;
+}
+
+.testo-colonna-attivita5{
+    position: absolute;
+    left: 13px;
+    top: 50px;
+}
+
+.testo-colonna-attivita6{
+    position: absolute;
+    left: 5px;
+    top: 40px;
+}
+
+.testo-colonna-attivita7{
+    position: absolute;
+    left: 0px;
+    top: 40px;
+}
+
+#immagine-centrata{
+    margin: 0 auto;
+}
